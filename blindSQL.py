@@ -54,6 +54,10 @@ def checkRegex(regex):
 	parser.feed(response.read().decode(encoding='UTF-8',errors='strict'))
 	return parser.flag
 
+# whoa check out this if tree
+# there are more branches than a chrismas tree
+# what a scrub
+
 for i in range (1,32):
 	if checkRegex('^' + password +'[a-z]'):
 		if checkRegex('^' + password +'[a-m]'):
